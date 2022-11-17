@@ -1,6 +1,6 @@
 {
 "dependencies": {
 "renovate": "30.4.1",
-  "node": "14.21.0"
+  "node": "19.1.0"
 }
 }
