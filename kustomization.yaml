@@ -7,4 +7,4 @@ plugins:
     # renovate: datasource=github-tags depName=sbaudoin/sonar-yaml
     - "https://github.com/sbaudoin/sonar-yaml/releases/download/v1.6.0/sonar-yaml-plugin-1.6.0.jar"
     # renovate: datasource=github-tags depName=sbaudoin/sonar-ansible
-    - "https://github.com/sbaudoin/sonar-ansible/releases/download/v2.5.0/sonar-ansible-plugin-2.5.0.jar"
+    - "https://github.com/sbaudoin/sonar-ansible/releases/download/v2.5.1/sonar-ansible-plugin-2.5.0.jar"
