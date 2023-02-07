@@ -3,7 +3,7 @@
     {
       "fileMatch": ["kustomization.yaml"],
       "matchStrings": [
-        "#\\s?renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s*-\\s\\\".*\\/(?<currentValue>v?[\\d\\.]*)\\/.*-(?<currentValue2>[\\d\\.]*).jar\\\""
+        "#\\s?renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s*-\\s\\\".*\\/v?(?<currentValue>[\\d\\.]*)\\/.*-(?<currentValue2>[\\d\\.]*).jar\\\""
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
